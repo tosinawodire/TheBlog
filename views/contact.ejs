@@ -1,0 +1,23 @@
+<%title = "The Blog Center | Contact Us" %>
+
+<%- include('partials/header.ejs')%>
+
+            <div class="container">
+                <div>
+                    
+                    <form action="/contact" method="POST" class="form">
+                        <h3>CONTACT US</h3>
+                    <p>Freedom way, Silicon Avenue, 5th and 6th Floor, World Trade Center Building New york</p>
+                    <p>or you can fill this form and we'll get back to you ASAP</p>
+
+                        <p><input type="email" placeholder="E-mail" name="mail"></p>
+                        <p><textarea name="comment" placeholder="Type your enquiries here" cols="30" rows="10" id="post"></textarea></p>
+                        <input type= "submit" value="Submit" >
+
+                    </form>
+
+                </div>
+                    
+            </div>
+
+<%- include('partials/footer.ejs') %>
